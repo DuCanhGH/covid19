@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    text-decoration: none; 
+    font-family:cursive;
+    font-size:0.83vw;
+    position: absolute;
+    top:35%;
+}
+.nothing{
+    width: 50%;
+    height: 14.641288433382138vw;
+    transition: width 0.25s;
+    position: relative;
+}
+  
+.nothing:hover{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    color: black;
+    font-size: 4.392386530014641vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    left:10%;
+    top:1%;
+}
+#text1{
+    position: absolute;
+    color: black;
+    font-size: 1.8301610541727673vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    right:10%;
+    top:20%;
+    display: none;
+}
+.text2{
+    position: absolute;
+    color: black;
+    font-size: 4.392386530014641vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    left:10%;
+    top:-20%;
+}
+#text3{
+    position: absolute;
+    color: black;
+    font-size: 1.8301610541727673vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    right:10%;
+    top:12%;
+    display: none;
+}
+#text5{
+    position: absolute;
+    color: black;
+    font-size: 1.8301610541727673vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    right:10%;
+    top:20%;
+    display: none;
+}
+#text6{
+    position: absolute;
+    color: black;
+    font-size: 1.8301610541727673vw;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    right:10%;
+    top:12%;
+    display: none;
+}

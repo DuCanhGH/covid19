@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PLAYERUNKNOWN’S BATTLEGROUNDS is a last-man-standing shooter being developed with community feedback. Players must fight to locate weapons and supplies in a massive 8x8 km island to be the lone survivor. This is Battle Royale.">
+    <link rel="icon" href="Images/cropped-pubg-favicon-L-1-32x32.png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="AboutPUBG.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400,700|Roboto:400,700|Teko" rel="stylesheet">
+    <link crossorigin="anonymous" rel="stylesheet" id="pubg/google_fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C100%7CTeko%3A100%2C400%2C300%2C700%7COswald%3A400%2C500%2C700&amp;subset=cyrillic%2Ccyrillic-ext%2Clatin-ext" type="text/css" media="all">
+    <title>About PUBG</title>
+</head>
+<body id="y3">
+   <div>
+    <div id="container">
+        <div class="text" style="font-size: 2.6041666666666665vw; left: 0%; margin-top:0.67vw; color:red">PUBG is not a dead game!</div>
+    </div>
+    <div style="background-color: #001a33; width: 100%; height: 3.38vw; display:block; position:fixed; top:0; left:0; z-index:10;">
+        <a href="Noname.html">
+         <img src="Images/pubg-png-team-pvpon-3.png" style="margin-left: 1.56vw; width: 2.6vw; height:2.08vw; vertical-align: 32px; margin-top:0.67vw">
+        </a>
+        <a href="StreamersGameplay.html" class="head" style="color:white; left:52.2%">Season 8 Gameplay</a>
+        <a href="PUBGSoundtracks.html" class="head" style="color:white; left:61%">Soundtracks</a>
+        <a href="https://careers.pubg.com/" class="head" style="color:white; left:67.2%">Careers</a>
+        <a href="https://www.pubg.com/support/" class="head" style="color:white; left:71.7%">Support</a>
+        <a href="Season8.html" class="head" style="color:#ffcc00; left:76.2%">Season 8</a>
+        <a href="https://www.pubg.com/stadia/" class="head" style="color:white; left:81%">PUBG on Stadia</a>
+        <a href="Noname.html" class="head" style="color:white; left:88%">Homepage</a>
+        <a href="https://buy.pubg.com" class="head" style="color:white; left: 93%">Buy PUBG now</a>
+    </div>
+    <div id="a2">
+        <img src="Images/header.jpg" id="image1">
+        <p id="text1">PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole. The game is based on previous mods that were created by Brendan "PlayerUnknown" Greene for other games, inspired by the 2000 Japanese film Battle Royale, and expanded into a standalone game under Greene's creative direction. In the game, up to one hundred players parachute onto an island and scavenge for weapons and equipment to kill others while avoiding getting killed themselves. The available safe area of the game's map decreases in size over time, directing surviving players into tighter areas to force encounters. The last player or team standing wins the round.</p>
+        <p id="text1">Battlegrounds was first released for Microsoft Windows via Steam's early access beta program in March 2017, with a full release in December 2017. The game was also released by Microsoft Studios for the Xbox One via its Xbox Game Preview program that same month, and officially released in September 2018. A free-to-play mobile version for Android and iOS was released in 2018, in addition to a port for the PlayStation 4. A version for the Stadia streaming platform was released in April 2020. Battlegrounds is one of the best-selling and most-played video games of all time. The game had sold over 70 million copies by 2020, with PUBG Mobile having been downloaded over 600 million times.</p>
+        <p id="text1">Battlegrounds received positive reviews from critics, who found that while the game had some technical flaws, it presented new types of gameplay that could be easily approached by players of any skill level and was highly replayable. The game was attributed to popularizing the battle royale genre, with a number of unofficial Chinese clones also being produced following its success. The game also received several Game of the Year nominations, among other accolades. PUBG Corporation has run several small tournaments and introduced in-game tools to help with broadcasting the game to spectators, as they wish for it to become a popular esport. The game has also been banned in some countries for allegedly being harmful and addictive to younger players.</p>
+        <p id="text1">Here are the maps in PUBG: Erangel, Miramar, Sanhok, Vikendi, Karakin</p>
+        <img src="Images/erangel.webp" id="image2">
+        <img src="Images/950px-Miramar_EN.jpeg" id="image2">
+        <img src="Images/sanhok.jfif" id="image2">
+        <img src="Images/Vikendijpg.jpg" id="image2">
+        <img src="Images/Map-Karakin-PUBG-6.jpg" id="image2"><hr>
+    </div>
+    <script>
+        var container = document.getElementById('container'), dragging = false, previousmouse;
+        container.x = 0; container.y = 0;
+    
+        window.onmousedown = function(e) { dragging = true; previousmouse = {x: e.pageX, y: e.pageY}; }
+    
+        window.onmouseup = function() { dragging = false; }
+    
+        window.ondragstart = function(e) { e.preventDefault(); }
+    
+        window.onmousemove = function(e) {
+            if (dragging) {
+                container.x += e.pageX - previousmouse.x; container.y += e.pageY - previousmouse.y;
+                container.style.left = container.x + 'px'; container.style.top = container.y + 'px';
+                previousmouse = {x: e.pageX, y: e.pageY};
+            }
+        }
+    </script>
+   </div>
+   <div style="background-color: #1a1a1a; height: 9.635416666666666vw; float: left; width: 150%; margin-top: -4px; margin-left: -8px">
+    <a href="baicuoikhoa.html">
+     <img src="Images/pubg.png" id="c1">
+    </a>
+    <div id="c2">
+        COPYRIGHT ©2020 PUBG CORPORATION. ALL RIGHTS RESERVED.<br>
+        PLAYERUNKNOWN’S BATTLEGROUNDS and PUBG are registered trademarks, trademarks or service marks of PUBG CORPORATION.<br>
+         <br>
+        Partnership Inquiry:
+        <a href="mailto:PUBG_Partnership@pubg.com" style="text-decoration: unset; color:grey">PUBG_Partnership@pubg.com</a><br>
+    </div>
+    <div style="margin-left:7vw">
+        <strong><a href="https://www.pubg.com/privacy/" class="wtf" style="color:white; font-weight:800">Privacy Policy</a></strong>
+        <p class="I">I</p>
+        <a href="https://www.pubg.com/terms-of-service/" class="wtf" style="color: grey">Terms of Service</a>
+        <p class="I">I</p>
+        <a href="https://www.pubg.com/rules-of-conduct/" class="wtf" style="color: grey">Rules of Conduct</a>
+        <p class="I">I</p>
+        <a href="https://www.pubg.com/eula/" class="wtf" style="color: grey">EULA</a>
+        <p class="I">I</p>
+        <a href="https://www.pubg.com/player-created-content/" class="wtf" style="color: grey">Player-created Content</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
